@@ -1,5 +1,5 @@
 package com.calculator;
 
-public  interface SalaryCalculator{
+public  interface ExtraOperation {
     void doTask();
 }

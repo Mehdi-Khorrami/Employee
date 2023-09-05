@@ -2,10 +2,10 @@ package com.calculator;
 
 import com.models.Manager;
 
-public class ManagarCalculator implements SalaryCalculator<Manager> {
+public class ManagarCalculator extends BaseCalculator<Manager> implements SalaryCalculator{
 
     @Override
     public void doTask() {
-        System.out.println("task manager is manage");
+
     }
 }
